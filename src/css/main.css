@@ -162,7 +162,7 @@ p {
 .section-center {
   width: 90vw;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 1100px;
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -183,7 +183,7 @@ p {
   text-align: center;
 }
 .bg-grey {
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-10);
 }
 /* page links */
 
@@ -511,7 +511,7 @@ Services
 }
 .service:hover {
   background: var(--clr-primary-5);
-  color: var(--clr-primary-9);
+  color: var(--clr-primary-10);
 }
 .service:hover p {
   color: var(--clr-primary-9);
