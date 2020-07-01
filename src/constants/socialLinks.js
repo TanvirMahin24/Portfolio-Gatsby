@@ -2,36 +2,36 @@ import React from "react"
 import {
   FaFacebookSquare,
   FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
-  FaTwitterSquare,
+  FaGithub,
+  FaInstagram,
+  FaYoutube,
 } from "react-icons/fa"
 
 const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.twitter.com",
+    url: "https://fb.me/tanvir.mahin.1",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/noor-ajmir-tanvir-mahin-b188a01a1",
   },
   {
     id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaGithub className="social-icon"></FaGithub>,
+    url: "https://github.com/TanvirMahin24",
   },
   {
     id: 4,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaInstagram className="social-icon"></FaInstagram>,
+    url: "https://www.instagram.com/tanvir_mahin",
   },
   {
     id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaYoutube className="social-icon"></FaYoutube>,
+    url: "https://youtube.com/channel/UCALP3zpIS23vGDId334B40w",
   },
 ]
 const links = data.map(link => {
